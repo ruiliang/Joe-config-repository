@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change_username"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/change_username"/>
+	
+    <item
+        android:id="@+id/change_password"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/change_password"/>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">login</string>
+    
+    <string name="change_username">Change User Name</string>
+    <string name="change_password">Change Password</string>
+    
+    
+    <string name="username">User Name</string>
+	<string name="password">Password</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="submit">Submit</string>
+	
+	<string name="sign_in">Sign In</string>
+	<string name="sign_up">Sign Up</string>
+	
+	<string name="new_user_name">New Username</string>
+	<string name="new_password">New Password</string>
+	<string name="confirm">Confirm</string>
+	
+	<string name="showUser">Show All User</string>
+</resources>

@@ -1,0 +1,5 @@
+package com.ING.searchengine;
+
+public class HttpConnection {
+
+}

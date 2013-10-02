@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+/Users/joe/Documents/android/project/miniApp/.metadata/.plugins/org.eclipse.jdt.core
+433892691.index
+1197304604.index
+703323291.index
+1541514300.index
+2558441305.index
+3010327280.index
+2845308187.index
+1408221440.index
+2032862816.index

@@ -1,0 +1,9 @@
+package com.ING.searchengine;
+
+import org.apache.http.HttpClientConnection;
+
+public class HttpConnection {
+	
+	HttpClientConnection http = new HttpClientConnection;
+
+}

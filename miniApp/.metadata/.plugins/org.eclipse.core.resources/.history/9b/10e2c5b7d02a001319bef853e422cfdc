@@ -1,0 +1,26 @@
+package com.ING.camera;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.app.Activity;
+import android.content.Intent;
+
+public class MainActivity extends Activity {
+
+	final int Take_picture = 1;
+	private Uri imageUri;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		takePhoto();
+		
+	}
+	
+	private void takePhoto(){
+		
+	}
+}

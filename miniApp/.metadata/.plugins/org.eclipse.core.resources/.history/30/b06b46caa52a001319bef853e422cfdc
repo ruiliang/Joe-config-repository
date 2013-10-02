@@ -1,0 +1,51 @@
+package com.ING.camera;
+
+import java.io.IOException;
+
+import android.content.Context;
+import android.hardware.Camera;
+import android.util.Log;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+public class PreviewImage extends SurfaceView implements SurfaceHolder.Callback{
+
+	private SurfaceHolder mHolder;
+	private Camera mCamera;
+	
+	
+	public PreviewImage(Context context, Camera camera) {
+		super(context);
+		this.mCamera = camera;
+		
+		this.mHolder = getHolder();
+		mHolder.addCallback(this);
+	}
+
+	@Override
+	public void surfaceCreated(SurfaceHolder holder) {
+		try{
+			mCamera.setPreviewDisplay(holder);
+			mCamera.startPreview();
+		}catch(IOException e){
+
+		}
+		
+	}
+
+	@Override
+	public void surfaceChanged(SurfaceHolder holder, int format, int width,
+			int height) {
+		
+		try{
+			camera.
+		}
+	}
+
+	@Override
+	public void surfaceDestroyed(SurfaceHolder holder) {
+        // empty. Take care of releasing the Camera preview in your activity.
+	}
+	
+
+}
